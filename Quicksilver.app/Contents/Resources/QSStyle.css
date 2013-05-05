@@ -1,0 +1,66 @@
+body, th, td {
+  font-family: "Lucida Grande";
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+#content {
+  padding: 1em 2em;
+}
+a {
+  color: blue;
+  border-bottom: 1px dotted gray;
+  text-decoration: none;
+}
+a: hover {
+  border-bottom:  1px solid blue;
+}
+pre, code {
+  font-family: Menlo;
+}
+pre {
+  border-radius: 0.4em;
+  background-color: #EDEDED;
+  padding: 0.5em;
+}
+code {
+  color: #4B3E88;
+}
+pre code {
+  color: #000000;
+}
+table {
+  margin: 0.5em 1em;
+  border-collapse: collapse;
+}
+td, th {
+  padding: 0.25em 0.5em;
+  border: 1px solid #EDEDED;
+}
+dd {
+  margin: 0.25em 0 1em 2em;
+}
+dt {
+  font-weight: bold;
+}
+dd p {
+  margin-top: 0px;
+}
+dd pre {
+  margin: 1em 0px;
+}
+/* Styles specific to Release Notes */
+#qsrn #content {
+  background-color: rgba(128, 81, 149, 0.3);
+}
+#qsrn {
+  background: url('../Resources/Quicksilver.icns') no-repeat 95% 10%;
+  background-size: 512px 512px;
+  background-attachment: fixed; 
+}
+#qsrn ul {
+  background-color: rgba(242, 237, 245, 0.95);
+  border-radius: 0.5em;
+  padding: 1em 1em 1em 2em;
+}

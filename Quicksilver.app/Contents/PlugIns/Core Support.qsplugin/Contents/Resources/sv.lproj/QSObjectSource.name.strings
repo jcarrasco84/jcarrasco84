@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>QSABMailRecentsObjectSource</key>
+    <string>Mail föregående mottagare</string>
+    <key>QSAddressBookObjectSource</key>
+    <string>Adressbok</string>
+    <key>QSAirPortNetworkObjectSource</key>
+    <string>AirPort-nätverk</string>
+    <key>QSAllApplicationsObjectSource</key>
+    <string>Alla program</string>
+    <key>QSCatalogEntrySource</key>
+    <string>Katalogposter</string>
+    <key>QSDefaultsObjectSource</key>
+    <string>Förvald läsare</string>
+    <key>QSFileSystemObjectSource</key>
+    <string>Fil- och mappskanner</string>
+    <key>QSGroupObjectSource</key>
+    <string>Grupp</string>
+    <key>QSMachineSource</key>
+    <string>Quicksilver-maskiner</string>
+    <key>QSNUDCSource</key>
+    <string>Nu uppdaterad och kontakter</string>
+    <key>QSNetworkLocationObjectSource</key>
+    <string>Nätverksplatser</string>
+    <key>QSProcessObjectSource</key>
+    <string>Aktiva processer</string>
+    <key>QSVolumesObjectSource</key>
+    <string>Monterade volymer</string>
+    <key>QSiPhotoObjectSource</key>
+    <string>iPhoto-bibliotek</string>
+    <key>QSiTunesObjectSource</key>
+    <string>iTunes musikbibliotek</string>
+    <key>QSHistoryObjectSource</key>
+    <string>Objekthistorik</string>
+    <key>QSInternalObjectSource</key>
+    <string>Interna objekt</string>
+    <key>QSObjCMessageSource</key>
+    <string>Objective C-meddelanden</string>
+    <key>QSProxyObjectSource</key>
+    <string>Mellanhänder</string>
+  </dict>
+</plist>

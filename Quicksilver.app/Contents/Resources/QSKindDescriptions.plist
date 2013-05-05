@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ABPeopleUIDsPboardType</key>
+	<string>Contacts</string>
+	<key>Apple URL pasteboard type</key>
+	<string>URL</string>
+	<key>NSFilenamesPboardType</key>
+	<string>Files &amp; Folders</string>
+	<key>QSCatalogEntryPboardType</key>
+	<string>Catalog Entry</string>
+	<key>QSKindApplication</key>
+	<string>Applications</string>
+	<key>QSNNWSubscriptionType</key>
+	<string>NetNewsWire Subscripton</string>
+</dict>
+</plist>

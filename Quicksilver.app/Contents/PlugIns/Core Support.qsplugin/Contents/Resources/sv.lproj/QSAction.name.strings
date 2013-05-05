@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>AppActivateAction</key>
+    <string>Aktivera</string>
+    <key>AppHideAction</key>
+    <string>Göm</string>
+    <key>AppHideOthersAction</key>
+    <string>Göm andra</string>
+    <key>AppLaunchAction</key>
+    <string>Starta</string>
+    <key>AppLaunchAgainAction</key>
+    <string>Starta en annan kopia</string>
+    <key>AppOpenFileAction</key>
+    <string>Öppna fil...</string>
+    <key>AppQuitOthersAction</key>
+    <string>Avsluta andra</string>
+    <key>AppQuitAction</key>
+    <string>Avsluta</string>
+    <key>AppRelaunchAction</key>
+    <string>Starta på nytt</string>
+    <key>AppReopenAction</key>
+    <string>Öppna</string>
+    <key>AppRootLaunchAction</key>
+    <string>Starta som Root</string>
+    <key>AppShowHideAction</key>
+    <string>Växla program</string>
+    <key>AppleScriptOpenFilesAction</key>
+    <string>Öppna fil...</string>
+    <key>AppleScriptProcessTextAction</key>
+    <string>Behandla text...</string>
+    <key>AppleScriptRunAction</key>
+    <string>Kör</string>
+    <key>AppleScriptRunTextAction</key>
+    <string>Kör som AppleScript</string>
+    <key>ContactEditAction</key>
+    <string>Redigera</string>
+    <key>ContactEmailAction</key>
+    <string>E-posta</string>
+    <key>ContactIMAction</key>
+    <string>Skicka snabbmeddelande till person</string>
+    <key>ContactSendItemEmailAction</key>
+    <string>E-posta objekt...</string>
+    <key>ContactSendItemIMAction</key>
+    <string>Skicka text som snabbmeddelande...</string>
+    <key>ContactSendTextEmailAction</key>
+    <string>Skicka text...</string>
+    <key>ContactShowAction</key>
+    <string>Visa</string>
+    <key>DiskEjectAction</key>
+    <string>Mata ut</string>
+    <key>DiskForceEjectAction</key>
+    <string>Tvångsutmata</string>
+    <key>FileCompressAction</key>
+    <string>Komprimera</string>
+    <key>FileCopyToAction</key>
+    <string>Kopiera till...</string>
+    <key>FileDecompressAction</key>
+    <string>Packa upp</string>
+    <key>FileDeleteAction</key>
+    <string>Ta bort (radera)</string>
+    <key>FileGetInfoAction</key>
+    <string>Hämta info</string>
+    <key>FileGetPathAction</key>
+    <string>Hämta sökväg</string>
+    <key>FileGetPosixPathAction</key>
+    <string>Hämta absolut (POSIX) sökväg</string>
+    <key>FileGetURLAction</key>
+    <string>Hämta fil-URL</string>
+    <key>FileGetHFSPathAction</key>
+    <string>Hämta fil-plats</string>
+    <key>FileMakeAliasInAction</key>
+    <string>Skapa alias i...</string>
+    <key>FileMakeHardLinkInAction</key>
+    <string>Skapa hård länk i...</string>
+    <key>FileMakeLinkInAction</key>
+    <string>Skapa länk i...</string>
+    <key>FileMoveToAction</key>
+    <string>Flytta till...</string>
+    <key>FileOpenAction</key>
+    <string>Öppna</string>
+    <key>FileOpenWithAction</key>
+    <string>Öppna med...</string>
+    <key>FileAlwaysOpenTypeWithAction</key>
+    <string>Öppna alltid typ med...</string>
+    <key>FileRenameAction</key>
+    <string>Byt namn...</string>
+    <key>FileRevealAction</key>
+    <string>Visa</string>
+    <key>FileToTrashAction</key>
+    <string>Flytta till papperskorgen</string>
+    <key>ItemSendToContactEmailAction</key>
+    <string>E-posta till...</string>
+    <key>ItemSendToContactIMAction</key>
+    <string>Skicka snabbmeddelande till person....</string>
+    <key>PasteboardCopyAction</key>
+    <string>Kopiera till urklipp</string>
+    <key>PasteboardPasteAction</key>
+    <string>Klistra in</string>
+    <key>PasteboardPasteActionAsPlainText</key>
+    <string>Klistra in som oformaterad text</string>
+    <key>ProcessKillAction</key>
+    <string>Tvångsavsluta (stäng)</string>
+    <key>ProcessLowerPriorityAction</key>
+    <string>Sänk prioritet</string>
+    <key>ProcessRaisePriorityAction</key>
+    <string>Öka prioritet</string>
+    <key>ProcessResumeAction</key>
+    <string>Fortsätt utförande (återuppta)</string>
+    <key>ProcessSuspendAction</key>
+    <string>Pausa utförande (avbryt)</string>
+    <key>QSObjectAssignMnemonic</key>
+    <string>Tilldela förkortning...</string>
+    <key>QSObjectSelectAction</key>
+    <string>Markera i kommandofönster</string>
+    <key>QSAIMSMSAction</key>
+    <string>Skicka SMS (AIM/iChat)</string>
+    <key>QSAirPortNetworkSelectAction</key>
+    <string>Byt Airport</string>
+    <key>QSCLExecuteAction</key>
+    <string>Kör</string>
+    <key>QSCLExecuteTextAction</key>
+    <string>Kör kommando i skal</string>
+    <key>QSCLExecuteShellCommandAction</key>
+    <string>Kör kommando i skal</string>
+    <key>QSCLExecuteWithArgsAction</key>
+    <string>Kör [...]</string>
+    <key>QSCLTermExecuteTextAction</key>
+    <string>Kör ett textkommando i Terminal</string>
+    <key>QSCLTermExecuteShellCommandAction</key>
+    <string>Kör ett textkommando i Terminal</string>
+    <key>QSCLTermExecuteWithArgsAction</key>
+    <string>Kör i Terminal [...]</string>
+    <key>QSCLTermShowDirectoryAction</key>
+    <string>Gå till mapp i Terminal</string>
+    <key>QSCLTermShowManPageAction</key>
+    <string>Visa manualsida</string>
+    <key>QSCatalogEntryRescanAction</key>
+    <string>Skanna katalogpost</string>
+    <key>QSCatalogEntryShowAction</key>
+    <string>Visa post i katalog</string>
+    <key>QSCommandSaveAction</key>
+    <string>Spara kommando till fil...</string>
+    <key>QSCommandAddTriggerAction</key>
+    <string>Lägg till utlösare</string>
+    <key>QSCommandExecuteAction</key>
+    <string>Kör</string>
+    <key>QSCommandExecuteAfterDelayAction</key>
+    <string>Kör efter fördröjning...</string>
+    <key>QSComposeEmailItemAction</key>
+    <string>E-posta objekt... (komponera)</string>
+    <key>QSCommandExecuteAtTimeAction</key>
+    <string>Kör vid tidpunkt...</string>
+    <key>QSComposeEmailItemReverseAction</key>
+    <string>E-posta till (komponera)</string>
+    <key>QSCreateFileAction</key>
+    <string>Skapa fil [...]</string>
+    <key>QSCreateFileTemplate</key>
+    <string>Skapa ny...</string>
+    <key>QSDialNumberAction</key>
+    <string>Ring</string>
+    <key>QSEditAction</key>
+    <string>Redigera</string>
+    <key>QSEmailAction</key>
+    <string>E-post</string>
+    <key>QSEmailItemAction</key>
+    <string>E-posta objekt... (skicka)</string>
+    <key>QSEmailItemReverseAction</key>
+    <string>E-posta till... (skicka)</string>
+    <key>QSHFSLockAction</key>
+    <string>Lås</string>
+    <key>QSHFSMakeInvisibleAction</key>
+    <string>Gör osynlig</string>
+    <key>QSHFSMakeVisibleAction</key>
+    <string>Gör synlig</string>
+    <key>QSHFSUnlockAction</key>
+    <string>Lås upp</string>
+    <key>QSNewFolderAction</key>
+    <string>Ny mapp...</string>
+    <key>QSLargeTypeAction</key>
+    <string>Storstil</string>
+    <key>QSLoginItemAddAction</key>
+    <string>Öppna vid inloggning</string>
+    <key>QSLoginItemRemoveAction</key>
+    <string>Öppna inte vid inloggning</string>
+    <key>QSNUTDContactShowAction</key>
+    <string>Visa kontakt</string>
+    <key>QSNetworkLocationSelectAction</key>
+    <string>Byt till plats</string>
+    <key>QSObjCSendMessageAction</key>
+    <string>Kör</string>
+    <key>QSObjectSearchChildrenAction</key>
+    <string>Sökresultat</string>
+    <key>QSObjectShowChildMenu</key>
+    <string>Visa innehållsmeny</string>
+    <key>QSObjectShowMenu</key>
+    <string>Visa meny</string>
+    <key>QSObjectShowActionMenu</key>
+    <string>Visa åtgärdsmeny</string>
+    <key>QSObjectShowChildrenAction</key>
+    <string>Visa innehåll</string>
+    <key>QSObjectShowSourceAction</key>
+    <string>Visa källa i katalog</string>
+    <key>QSPutOnShelfAction</key>
+    <string>Lägg till Shelf</string>
+    <key>QSShelfShowAction</key>
+    <string>Visa</string>
+    <key>QSShellScriptRunAction</key>
+    <string>Kör [...]</string>
+    <key>QSTextShowDialogAction</key>
+    <string>Visa dialog</string>
+    <key>QSTextSpeakAction</key>
+    <string>Uttala text (säg)</string>
+    <key>QSTextAppendAction</key>
+    <string>Lägg till text till...</string>
+    <key>QSTextDiffAction</key>
+    <string>Skillnader från...</string>
+    <key>QSTextPrependAction</key>
+    <string>Lägg till text innan...</string>
+    <key>QSTextTypeAction</key>
+    <string>Skriv text</string>
+    <key>QSUserSwitchAction</key>
+    <string>Byt till användare</string>
+    <key>QSiPhotoAlbumShowAction</key>
+    <string>Visa album</string>
+    <key>QSiPhotoAlbumSlideShowAction</key>
+    <string>Visa bildspel</string>
+    <key>QSiTunesAppendItemAction</key>
+    <string>Kö</string>
+    <key>QSiTunesPlayItemAction</key>
+    <string>Spela</string>
+    <key>ShellScriptRunAction</key>
+    <string>Kör shellskript</string>
+    <key>URLEmailAction</key>
+    <string>Öppna URL för e-post</string>
+    <key>URLFindWithAction</key>
+    <string>Sök på plats...</string>
+    <key>URLJSAction</key>
+    <string>Kör Javascript</string>
+    <key>URLOpenAction</key>
+    <string>Öppna URL</string>
+    <key>URLOpenActionInBackground</key>
+    <string>Öppna URL i bakgrunden</string>
+    <key>URLOpenWithAction</key>
+    <string>Öppna URL med...</string>
+    <key>URLSearchAction</key>
+    <string>Sök</string>
+    <key>URLSearchForAction</key>
+    <string>Sök efter...</string>
+  </dict>
+</plist>

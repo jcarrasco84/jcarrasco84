@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BuildMachineOSBuild</key>
+	<string>12D78</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleDisplayName</key>
+	<string>Finder Plugin</string>
+	<key>CFBundleExecutable</key>
+	<string>Finder Module</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.blacktree.Quicksilver.QSFinderPlugIn</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>Finder Plugin</string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0.0</string>
+	<key>CFBundleVersion</key>
+	<string>17A5</string>
+	<key>DTCompiler</key>
+	<string>com.apple.compilers.llvm.clang.1_0</string>
+	<key>DTPlatformBuild</key>
+	<string>4H512</string>
+	<key>DTPlatformVersion</key>
+	<string>GM</string>
+	<key>DTSDKBuild</key>
+	<string>12D75</string>
+	<key>DTSDKName</key>
+	<string>macosx10.8</string>
+	<key>DTXcode</key>
+	<string>0461</string>
+	<key>DTXcodeBuild</key>
+	<string>4H512</string>
+	<key>NSHumanReadableCopyright</key>
+	<string>Copyright © 2004, Blacktree, Inc.</string>
+	<key>QSPlugIn</key>
+	<dict>
+		<key>author</key>
+		<string>Blacktree, Inc.</string>
+		<key>description</key>
+		<string>Alows the Finder to respond to Open/Reveal/Selection actions.</string>
+		<key>hidden</key>
+		<true/>
+		<key>icon</key>
+		<string>com.apple.finder</string>
+		<key>requiresFeature</key>
+		<string>0</string>
+	</dict>
+	<key>QSPresetAdditions</key>
+	<array>
+		<dict>
+			<key>ID</key>
+			<string>QSPresetFinderGroup</string>
+			<key>children</key>
+			<array>
+				<dict>
+					<key>ID</key>
+					<string>QSPresetSidebarItems</string>
+					<key>icon</key>
+					<string>FinderIcon</string>
+					<key>name</key>
+					<string>Finder Sidebar Items</string>
+					<key>settings</key>
+					<dict>
+						<key>bundle</key>
+						<string>com.apple.sidebarlists</string>
+						<key>keypath</key>
+						<array>
+							<string>favorites</string>
+							<string>VolumesList</string>
+							<string>*</string>
+							<string>Alias</string>
+						</array>
+						<key>type</key>
+						<integer>3</integer>
+					</dict>
+					<key>source</key>
+					<string>QSDefaultsObjectSource</string>
+				</dict>
+				<dict>
+					<key>ID</key>
+					<string>QSPresetFinderToolbarItems</string>
+					<key>name</key>
+					<string>Finder Toolbar Items</string>
+					<key>settings</key>
+					<dict>
+						<key>bundle</key>
+						<string>com.apple.finder</string>
+						<key>keypath</key>
+						<array>
+							<string>NSToolbar Configuration Browser</string>
+							<string>TB Item Plists</string>
+							<string>*</string>
+							<string>_CFURLAliasData</string>
+						</array>
+						<key>type</key>
+						<integer>3</integer>
+					</dict>
+					<key>source</key>
+					<string>QSDefaultsObjectSource</string>
+				</dict>
+			</array>
+			<key>icon</key>
+			<string>FinderIcon</string>
+			<key>name</key>
+			<string>Finder</string>
+			<key>source</key>
+			<string>QSGroupObjectSource</string>
+		</dict>
+	</array>
+	<key>QSRegistration</key>
+	<dict>
+		<key>QSBundleChildHandlers</key>
+		<dict>
+			<key>com.apple.finder</key>
+			<string>QSFinderProxy</string>
+		</dict>
+		<key>QSFSBrowserMediators</key>
+		<dict>
+			<key>com.apple.finder</key>
+			<string>QSFinderProxy</string>
+		</dict>
+		<key>QSInternalObjects</key>
+		<dict>
+			<key>QSTrashObject</key>
+			<dict>
+				<key>handler</key>
+				<string>QSFinderProxy</string>
+				<key>icon</key>
+				<string>Trash</string>
+				<key>name</key>
+				<string>Trash</string>
+			</dict>
+		</dict>
+		<key>QSProxies</key>
+		<dict>
+			<key>com.apple.finder</key>
+			<dict>
+				<key>icon</key>
+				<string>FinderIcon</string>
+				<key>name</key>
+				<string>Finder Selection</string>
+				<key>providerClass</key>
+				<string>QSFinderProxy</string>
+				<key>types</key>
+				<array>
+					<string>NSFilenamesPboardType</string>
+				</array>
+			</dict>
+		</dict>
+	</dict>
+	<key>QSResourceAdditions</key>
+	<dict>
+		<key>Trash</key>
+		<dict>
+			<key>bundle</key>
+			<string>com.apple.dock</string>
+			<key>resource</key>
+			<string>trashempty.png</string>
+		</dict>
+		<key>TrashFull</key>
+		<dict>
+			<key>bundle</key>
+			<string>com.apple.dock</string>
+			<key>resource</key>
+			<string>trashfull.png</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
